@@ -1,0 +1,7 @@
+Wie im Buch beschrieben, stammen einige Icons von Glypish:
+
+http://www.glyphish.com/
+
+Die Lizenzbestimmungen von Glyphish sind zu beachten!
+
+http://www.glyphish.com/license.txt

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8FAA9ED-DBE6-43CD-B22D-7AA4832FA3D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wasserwaage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC5CD528-1E2F-446B-A2F6-E53076601A67</key>
+		<string>ssh://git/iPhone2</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wasserwaage/Wasserwaage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC5CD528-1E2F-446B-A2F6-E53076601A67</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git/iPhone2</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC5CD528-1E2F-446B-A2F6-E53076601A67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC5CD528-1E2F-446B-A2F6-E53076601A67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhone2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

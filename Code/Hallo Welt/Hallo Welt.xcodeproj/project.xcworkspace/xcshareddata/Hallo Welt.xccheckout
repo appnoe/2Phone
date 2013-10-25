@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F0EE92E-8C72-4516-9CD2-B6F7994707C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hallo Welt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B64465CE-EA39-43C1-A328-C161D940477F</key>
+		<string>ssh://git/iPhone2</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hallo Welt/Hallo Welt.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B64465CE-EA39-43C1-A328-C161D940477F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git/iPhone2</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B64465CE-EA39-43C1-A328-C161D940477F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B64465CE-EA39-43C1-A328-C161D940477F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhone2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
