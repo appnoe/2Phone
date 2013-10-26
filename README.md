@@ -1,4 +1,4 @@
-iPhone-2
-========
+2Phone
+======
 
 Der Code zum Buch "iPhone- und iPad-Apps entwickeln"
