@@ -30,7 +30,7 @@
     NSString *fullURL = @"http://www.deep-blue-diving.com/";
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_theWebView loadRequest:requestObj];
+    [self.theWebView loadRequest:requestObj];
 	// Do any additional setup after loading the view.
 }
 

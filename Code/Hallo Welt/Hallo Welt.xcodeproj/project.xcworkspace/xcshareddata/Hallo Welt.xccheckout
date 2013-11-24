@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6F0EE92E-8C72-4516-9CD2-B6F7994707C1</string>
+	<string>D9FD67C0-D78C-433B-859B-4EDE98A2528B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Hallo Welt</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B64465CE-EA39-43C1-A328-C161D940477F</key>
-		<string>ssh://git/iPhone2</string>
+		<key>F374C75D-084D-4597-8219-A7796EC50078</key>
+		<string>https://github.com/hinkeldei/2Phone</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Hallo Welt/Hallo Welt.xcodeproj/project.xcworkspace</string>
+	<string>Code/Hallo Welt/Hallo Welt.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B64465CE-EA39-43C1-A328-C161D940477F</key>
-		<string>../../..</string>
+		<key>F374C75D-084D-4597-8219-A7796EC50078</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://git/iPhone2</string>
+	<string>https://github.com/hinkeldei/2Phone</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B64465CE-EA39-43C1-A328-C161D940477F</string>
+	<string>F374C75D-084D-4597-8219-A7796EC50078</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B64465CE-EA39-43C1-A328-C161D940477F</string>
+			<string>F374C75D-084D-4597-8219-A7796EC50078</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iPhone2</string>
+			<string>2Phone</string>
 		</dict>
 	</array>
 </dict>

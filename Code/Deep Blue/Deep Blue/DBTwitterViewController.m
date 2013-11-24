@@ -42,7 +42,7 @@
     {
         SLComposeViewController *theTweet = [SLComposeViewController
                                                composeViewControllerForServiceType:SLServiceTypeTwitter];
-        [theTweet setInitialText:_theTweetField.text];
+        [theTweet setInitialText:self.theTweetField.text];
         [self presentViewController:theTweet animated:YES completion:nil];
     }
 }

@@ -24,25 +24,25 @@
 }
 
 - (void)jsonData:(NSData *)theWeather {
-    [_theIndicator stopAnimating];
-    _theIndicator.alpha = 0;
+    [self.theIndicator stopAnimating];
+    self.theIndicator.alpha = 0;
     NSError *theError;
     NSDictionary *json = [NSJSONSerialization
                           JSONObjectWithData:theWeather
                           options:kNilOptions
                           error:&theError];
     
-    _theLogo.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[[json objectForKey:@"current_observation"]valueForKey:@"image"]valueForKey:@"url"]]]];
-    _theTemperature.text = [NSString stringWithFormat:@"%@ °Celsius", [[json objectForKey:@"current_observation"]valueForKey:@"temp_c"]];
-    _theWind.text = [NSString stringWithFormat:@"%@ km/h",[[json objectForKey:@"current_observation"]valueForKey:@"wind_kph"]];
-    _theCity.text = [[[json objectForKey:@"current_observation"]valueForKey:@"observation_location"]valueForKey:@"city"];
-    _theTime.text = [NSString stringWithFormat:@"%@",[[json objectForKey:@"current_observation"]valueForKey:@"observation_time"]];
+    self.theLogo.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[[json objectForKey:@"current_observation"]valueForKey:@"image"]valueForKey:@"url"]]]];
+    self.theTemperature.text = [NSString stringWithFormat:@"%@ °Celsius", [[json objectForKey:@"current_observation"]valueForKey:@"temp_c"]];
+    self.theWind.text = [NSString stringWithFormat:@"%@ km/h",[[json objectForKey:@"current_observation"]valueForKey:@"wind_kph"]];
+    self.theCity.text = [[[json objectForKey:@"current_observation"]valueForKey:@"observation_location"]valueForKey:@"city"];
+    self.theTime.text = [NSString stringWithFormat:@"%@",[[json objectForKey:@"current_observation"]valueForKey:@"observation_time"]];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [_theIndicator startAnimating];
+    [self.theIndicator startAnimating];
     dispatch_async(dispatch_get_global_queue
                    (DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                        NSLog(@"Fetching data …");
