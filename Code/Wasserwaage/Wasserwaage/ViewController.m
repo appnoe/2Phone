@@ -23,7 +23,6 @@
     self.theManager = [[CMMotionManager alloc] init];
     self.theManager.accelerometerUpdateInterval  = 0.1;
     self.theQueue = [NSOperationQueue currentQueue];
-    self.theQueue = [NSOperationQueue currentQueue];
     [self.theManager startAccelerometerUpdatesToQueue:self.theQueue
                                           withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
                                               CMAcceleration theAccelerationData = accelerometerData.acceleration;
