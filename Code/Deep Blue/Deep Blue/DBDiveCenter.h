@@ -2,14 +2,15 @@
 //  DBDiveCenter.h
 //  Deep Blue
 //
-//  Created by Klaus Rodewig on 01.02.13.
-//  Copyright (c) 2013 Deep Blue Diving S.L. All rights reserved.
+//  Created by Klaus Rodewig on 09.10.14.
+//  Copyright (c) 2014 Deep Blue S.L. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface DBDiveCenter : NSObject
-@property (retain) NSString *name;
+@property (copy) NSString *name;
 @property (retain) UIImage *icon;
 @property (retain) UIImage *image;
 @property (retain) NSNumber *latitude;
