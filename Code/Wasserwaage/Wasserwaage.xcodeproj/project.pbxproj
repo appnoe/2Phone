@@ -7,155 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		408A8E25178CB5C9005A1E7A /* WWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A8E24178CB5C9005A1E7A /* WWView.m */; };
-		40C472FF178E003100E262C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C472FE178E003100E262C5 /* Default-568h@2x.png */; };
-		40E7852217860873006CE590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7852117860873006CE590 /* Foundation.framework */; };
-		40E7852417860873006CE590 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7852317860873006CE590 /* CoreGraphics.framework */; };
-		40E7852617860873006CE590 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7852517860873006CE590 /* UIKit.framework */; };
-		40E7852C17860873006CE590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E7852A17860873006CE590 /* InfoPlist.strings */; };
-		40E7852E17860873006CE590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7852D17860873006CE590 /* main.m */; };
-		40E7853217860873006CE590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7853117860873006CE590 /* AppDelegate.m */; };
-		40E7853517860873006CE590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E7853317860873006CE590 /* Main.storyboard */; };
-		40E7853817860873006CE590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7853717860873006CE590 /* ViewController.m */; };
-		40E7853A17860873006CE590 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E7853917860873006CE590 /* Images.xcassets */; };
-		40E7854117860873006CE590 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7854017860873006CE590 /* XCTest.framework */; };
-		40E7854217860873006CE590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7852117860873006CE590 /* Foundation.framework */; };
-		40E7854317860873006CE590 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7852517860873006CE590 /* UIKit.framework */; };
-		40E7854B17860873006CE590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E7854917860873006CE590 /* InfoPlist.strings */; };
-		40E7854D17860873006CE590 /* WasserwaageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7854C17860873006CE590 /* WasserwaageTests.m */; };
+		40F613BE19EB28E80022D232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F613BD19EB28E80022D232 /* main.m */; };
+		40F613C119EB28E80022D232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F613C019EB28E80022D232 /* AppDelegate.m */; };
+		40F613C419EB28E80022D232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F613C319EB28E80022D232 /* ViewController.m */; };
+		40F613C719EB28E80022D232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F613C519EB28E80022D232 /* Main.storyboard */; };
+		40F613C919EB28E80022D232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F613C819EB28E80022D232 /* Images.xcassets */; };
+		40F613CC19EB28E80022D232 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F613CA19EB28E80022D232 /* LaunchScreen.xib */; };
+		40F613D819EB28E80022D232 /* WasserwaageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F613D719EB28E80022D232 /* WasserwaageTests.m */; };
+		40F613E319EB2AAF0022D232 /* WWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F613E219EB2AAF0022D232 /* WWView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40E7854417860873006CE590 /* PBXContainerItemProxy */ = {
+		40F613D219EB28E80022D232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 40E7851617860873006CE590 /* Project object */;
+			containerPortal = 40F613B019EB28E80022D232 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 40E7851D17860873006CE590;
+			remoteGlobalIDString = 40F613B719EB28E80022D232;
 			remoteInfo = Wasserwaage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		408A8E23178CB5C9005A1E7A /* WWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWView.h; sourceTree = "<group>"; };
-		408A8E24178CB5C9005A1E7A /* WWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWView.m; sourceTree = "<group>"; };
-		40C472FE178E003100E262C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		40E7851E17860873006CE590 /* Wasserwaage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasserwaage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E7852117860873006CE590 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		40E7852317860873006CE590 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		40E7852517860873006CE590 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		40E7852917860873006CE590 /* Wasserwaage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wasserwaage-Info.plist"; sourceTree = "<group>"; };
-		40E7852B17860873006CE590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40E7852D17860873006CE590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40E7852F17860873006CE590 /* Wasserwaage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wasserwaage-Prefix.pch"; sourceTree = "<group>"; };
-		40E7853017860873006CE590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		40E7853117860873006CE590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40E7853417860873006CE590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40E7853617860873006CE590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40E7853717860873006CE590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		40E7853917860873006CE590 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		40E7853F17860873006CE590 /* WasserwaageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasserwaageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E7854017860873006CE590 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		40E7854817860873006CE590 /* WasserwaageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WasserwaageTests-Info.plist"; sourceTree = "<group>"; };
-		40E7854A17860873006CE590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40E7854C17860873006CE590 /* WasserwaageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasserwaageTests.m; sourceTree = "<group>"; };
+		40F613B819EB28E80022D232 /* Wasserwaage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasserwaage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F613BC19EB28E80022D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F613BD19EB28E80022D232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40F613BF19EB28E80022D232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40F613C019EB28E80022D232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40F613C219EB28E80022D232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40F613C319EB28E80022D232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40F613C619EB28E80022D232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F613C819EB28E80022D232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40F613CB19EB28E80022D232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40F613D119EB28E80022D232 /* WasserwaageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasserwaageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F613D619EB28E80022D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F613D719EB28E80022D232 /* WasserwaageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasserwaageTests.m; sourceTree = "<group>"; };
+		40F613E119EB2AAF0022D232 /* WWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWView.h; sourceTree = "<group>"; };
+		40F613E219EB2AAF0022D232 /* WWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40E7851B17860873006CE590 /* Frameworks */ = {
+		40F613B519EB28E80022D232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7852417860873006CE590 /* CoreGraphics.framework in Frameworks */,
-				40E7852617860873006CE590 /* UIKit.framework in Frameworks */,
-				40E7852217860873006CE590 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E7853C17860873006CE590 /* Frameworks */ = {
+		40F613CE19EB28E80022D232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7854117860873006CE590 /* XCTest.framework in Frameworks */,
-				40E7854317860873006CE590 /* UIKit.framework in Frameworks */,
-				40E7854217860873006CE590 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40E7851517860873006CE590 = {
+		40F613AF19EB28E80022D232 = {
 			isa = PBXGroup;
 			children = (
-				40E7852717860873006CE590 /* Wasserwaage */,
-				40E7854617860873006CE590 /* WasserwaageTests */,
-				40E7852017860873006CE590 /* Frameworks */,
-				40E7851F17860873006CE590 /* Products */,
+				40F613BA19EB28E80022D232 /* Wasserwaage */,
+				40F613D419EB28E80022D232 /* WasserwaageTests */,
+				40F613B919EB28E80022D232 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40E7851F17860873006CE590 /* Products */ = {
+		40F613B919EB28E80022D232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40E7851E17860873006CE590 /* Wasserwaage.app */,
-				40E7853F17860873006CE590 /* WasserwaageTests.xctest */,
+				40F613B819EB28E80022D232 /* Wasserwaage.app */,
+				40F613D119EB28E80022D232 /* WasserwaageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40E7852017860873006CE590 /* Frameworks */ = {
+		40F613BA19EB28E80022D232 /* Wasserwaage */ = {
 			isa = PBXGroup;
 			children = (
-				40E7852117860873006CE590 /* Foundation.framework */,
-				40E7852317860873006CE590 /* CoreGraphics.framework */,
-				40E7852517860873006CE590 /* UIKit.framework */,
-				40E7854017860873006CE590 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		40E7852717860873006CE590 /* Wasserwaage */ = {
-			isa = PBXGroup;
-			children = (
-				40C472FE178E003100E262C5 /* Default-568h@2x.png */,
-				40E7853017860873006CE590 /* AppDelegate.h */,
-				40E7853117860873006CE590 /* AppDelegate.m */,
-				40E7853317860873006CE590 /* Main.storyboard */,
-				408A8E23178CB5C9005A1E7A /* WWView.h */,
-				408A8E24178CB5C9005A1E7A /* WWView.m */,
-				40E7853617860873006CE590 /* ViewController.h */,
-				40E7853717860873006CE590 /* ViewController.m */,
-				40E7853917860873006CE590 /* Images.xcassets */,
-				40E7852817860873006CE590 /* Supporting Files */,
+				40F613BF19EB28E80022D232 /* AppDelegate.h */,
+				40F613C019EB28E80022D232 /* AppDelegate.m */,
+				40F613C219EB28E80022D232 /* ViewController.h */,
+				40F613C319EB28E80022D232 /* ViewController.m */,
+				40F613C519EB28E80022D232 /* Main.storyboard */,
+				40F613E119EB2AAF0022D232 /* WWView.h */,
+				40F613E219EB2AAF0022D232 /* WWView.m */,
+				40F613C819EB28E80022D232 /* Images.xcassets */,
+				40F613CA19EB28E80022D232 /* LaunchScreen.xib */,
+				40F613BB19EB28E80022D232 /* Supporting Files */,
 			);
 			path = Wasserwaage;
 			sourceTree = "<group>";
 		};
-		40E7852817860873006CE590 /* Supporting Files */ = {
+		40F613BB19EB28E80022D232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40E7852917860873006CE590 /* Wasserwaage-Info.plist */,
-				40E7852A17860873006CE590 /* InfoPlist.strings */,
-				40E7852D17860873006CE590 /* main.m */,
-				40E7852F17860873006CE590 /* Wasserwaage-Prefix.pch */,
+				40F613BC19EB28E80022D232 /* Info.plist */,
+				40F613BD19EB28E80022D232 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		40E7854617860873006CE590 /* WasserwaageTests */ = {
+		40F613D419EB28E80022D232 /* WasserwaageTests */ = {
 			isa = PBXGroup;
 			children = (
-				40E7854C17860873006CE590 /* WasserwaageTests.m */,
-				40E7854717860873006CE590 /* Supporting Files */,
+				40F613D719EB28E80022D232 /* WasserwaageTests.m */,
+				40F613D519EB28E80022D232 /* Supporting Files */,
 			);
 			path = WasserwaageTests;
 			sourceTree = "<group>";
 		};
-		40E7854717860873006CE590 /* Supporting Files */ = {
+		40F613D519EB28E80022D232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40E7854817860873006CE590 /* WasserwaageTests-Info.plist */,
-				40E7854917860873006CE590 /* InfoPlist.strings */,
+				40F613D619EB28E80022D232 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,13 +127,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40E7851D17860873006CE590 /* Wasserwaage */ = {
+		40F613B719EB28E80022D232 /* Wasserwaage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40E7855017860873006CE590 /* Build configuration list for PBXNativeTarget "Wasserwaage" */;
+			buildConfigurationList = 40F613DB19EB28E80022D232 /* Build configuration list for PBXNativeTarget "Wasserwaage" */;
 			buildPhases = (
-				40E7851A17860873006CE590 /* Sources */,
-				40E7851B17860873006CE590 /* Frameworks */,
-				40E7851C17860873006CE590 /* Resources */,
+				40F613B419EB28E80022D232 /* Sources */,
+				40F613B519EB28E80022D232 /* Frameworks */,
+				40F613B619EB28E80022D232 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -177,45 +141,46 @@
 			);
 			name = Wasserwaage;
 			productName = Wasserwaage;
-			productReference = 40E7851E17860873006CE590 /* Wasserwaage.app */;
+			productReference = 40F613B819EB28E80022D232 /* Wasserwaage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40E7853E17860873006CE590 /* WasserwaageTests */ = {
+		40F613D019EB28E80022D232 /* WasserwaageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40E7855317860873006CE590 /* Build configuration list for PBXNativeTarget "WasserwaageTests" */;
+			buildConfigurationList = 40F613DE19EB28E80022D232 /* Build configuration list for PBXNativeTarget "WasserwaageTests" */;
 			buildPhases = (
-				40E7853B17860873006CE590 /* Sources */,
-				40E7853C17860873006CE590 /* Frameworks */,
-				40E7853D17860873006CE590 /* Resources */,
+				40F613CD19EB28E80022D232 /* Sources */,
+				40F613CE19EB28E80022D232 /* Frameworks */,
+				40F613CF19EB28E80022D232 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				40E7854517860873006CE590 /* PBXTargetDependency */,
+				40F613D319EB28E80022D232 /* PBXTargetDependency */,
 			);
 			name = WasserwaageTests;
 			productName = WasserwaageTests;
-			productReference = 40E7853F17860873006CE590 /* WasserwaageTests.xctest */;
+			productReference = 40F613D119EB28E80022D232 /* WasserwaageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40E7851617860873006CE590 /* Project object */ = {
+		40F613B019EB28E80022D232 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = Foobar;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Appnoe;
 				TargetAttributes = {
-					40E7851D17860873006CE590 = {
-						DevelopmentTeam = 5397MKMK89;
+					40F613B719EB28E80022D232 = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
-					40E7853E17860873006CE590 = {
-						TestTargetID = 40E7851D17860873006CE590;
+					40F613D019EB28E80022D232 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 40F613B719EB28E80022D232;
 					};
 				};
 			};
-			buildConfigurationList = 40E7851917860873006CE590 /* Build configuration list for PBXProject "Wasserwaage" */;
+			buildConfigurationList = 40F613B319EB28E80022D232 /* Build configuration list for PBXProject "Wasserwaage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,98 +188,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 40E7851517860873006CE590;
-			productRefGroup = 40E7851F17860873006CE590 /* Products */;
+			mainGroup = 40F613AF19EB28E80022D232;
+			productRefGroup = 40F613B919EB28E80022D232 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40E7851D17860873006CE590 /* Wasserwaage */,
-				40E7853E17860873006CE590 /* WasserwaageTests */,
+				40F613B719EB28E80022D232 /* Wasserwaage */,
+				40F613D019EB28E80022D232 /* WasserwaageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40E7851C17860873006CE590 /* Resources */ = {
+		40F613B619EB28E80022D232 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7853A17860873006CE590 /* Images.xcassets in Resources */,
-				40C472FF178E003100E262C5 /* Default-568h@2x.png in Resources */,
-				40E7852C17860873006CE590 /* InfoPlist.strings in Resources */,
-				40E7853517860873006CE590 /* Main.storyboard in Resources */,
+				40F613C719EB28E80022D232 /* Main.storyboard in Resources */,
+				40F613CC19EB28E80022D232 /* LaunchScreen.xib in Resources */,
+				40F613C919EB28E80022D232 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E7853D17860873006CE590 /* Resources */ = {
+		40F613CF19EB28E80022D232 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7854B17860873006CE590 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40E7851A17860873006CE590 /* Sources */ = {
+		40F613B419EB28E80022D232 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408A8E25178CB5C9005A1E7A /* WWView.m in Sources */,
-				40E7853817860873006CE590 /* ViewController.m in Sources */,
-				40E7853217860873006CE590 /* AppDelegate.m in Sources */,
-				40E7852E17860873006CE590 /* main.m in Sources */,
+				40F613C419EB28E80022D232 /* ViewController.m in Sources */,
+				40F613E319EB2AAF0022D232 /* WWView.m in Sources */,
+				40F613C119EB28E80022D232 /* AppDelegate.m in Sources */,
+				40F613BE19EB28E80022D232 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E7853B17860873006CE590 /* Sources */ = {
+		40F613CD19EB28E80022D232 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7854D17860873006CE590 /* WasserwaageTests.m in Sources */,
+				40F613D819EB28E80022D232 /* WasserwaageTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		40E7854517860873006CE590 /* PBXTargetDependency */ = {
+		40F613D319EB28E80022D232 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 40E7851D17860873006CE590 /* Wasserwaage */;
-			targetProxy = 40E7854417860873006CE590 /* PBXContainerItemProxy */;
+			target = 40F613B719EB28E80022D232 /* Wasserwaage */;
+			targetProxy = 40F613D219EB28E80022D232 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40E7852A17860873006CE590 /* InfoPlist.strings */ = {
+		40F613C519EB28E80022D232 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40E7852B17860873006CE590 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		40E7853317860873006CE590 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40E7853417860873006CE590 /* Base */,
+				40F613C619EB28E80022D232 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		40E7854917860873006CE590 /* InfoPlist.strings */ = {
+		40F613CA19EB28E80022D232 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40E7854A17860873006CE590 /* en */,
+				40F613CB19EB28E80022D232 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		40E7854E17860873006CE590 /* Debug */ = {
+		40F613D919EB28E80022D232 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,9 +284,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -340,18 +297,20 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		40E7854F17860873006CE590 /* Release */ = {
+		40F613DA19EB28E80022D232 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,121 +325,109 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		40E7855117860873006CE590 /* Debug */ = {
+		40F613DC19EB28E80022D232 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wasserwaage/Wasserwaage-Prefix.pch";
-				INFOPLIST_FILE = "Wasserwaage/Wasserwaage-Info.plist";
+				INFOPLIST_FILE = Wasserwaage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		40E7855217860873006CE590 /* Release */ = {
+		40F613DD19EB28E80022D232 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wasserwaage/Wasserwaage-Prefix.pch";
-				INFOPLIST_FILE = "Wasserwaage/Wasserwaage-Info.plist";
+				INFOPLIST_FILE = Wasserwaage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		40E7855417860873006CE590 /* Debug */ = {
+		40F613DF19EB28E80022D232 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wasserwaage.app/Wasserwaage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wasserwaage/Wasserwaage-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "WasserwaageTests/WasserwaageTests-Info.plist";
+				INFOPLIST_FILE = WasserwaageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasserwaage.app/Wasserwaage";
 			};
 			name = Debug;
 		};
-		40E7855517860873006CE590 /* Release */ = {
+		40F613E019EB28E80022D232 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wasserwaage.app/Wasserwaage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wasserwaage/Wasserwaage-Prefix.pch";
-				INFOPLIST_FILE = "WasserwaageTests/WasserwaageTests-Info.plist";
+				INFOPLIST_FILE = WasserwaageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasserwaage.app/Wasserwaage";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40E7851917860873006CE590 /* Build configuration list for PBXProject "Wasserwaage" */ = {
+		40F613B319EB28E80022D232 /* Build configuration list for PBXProject "Wasserwaage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40E7854E17860873006CE590 /* Debug */,
-				40E7854F17860873006CE590 /* Release */,
+				40F613D919EB28E80022D232 /* Debug */,
+				40F613DA19EB28E80022D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40E7855017860873006CE590 /* Build configuration list for PBXNativeTarget "Wasserwaage" */ = {
+		40F613DB19EB28E80022D232 /* Build configuration list for PBXNativeTarget "Wasserwaage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40E7855117860873006CE590 /* Debug */,
-				40E7855217860873006CE590 /* Release */,
+				40F613DC19EB28E80022D232 /* Debug */,
+				40F613DD19EB28E80022D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		40E7855317860873006CE590 /* Build configuration list for PBXNativeTarget "WasserwaageTests" */ = {
+		40F613DE19EB28E80022D232 /* Build configuration list for PBXNativeTarget "WasserwaageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40E7855417860873006CE590 /* Debug */,
-				40E7855517860873006CE590 /* Release */,
+				40F613DF19EB28E80022D232 /* Debug */,
+				40F613E019EB28E80022D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 40E7851617860873006CE590 /* Project object */;
+	rootObject = 40F613B019EB28E80022D232 /* Project object */;
 }
