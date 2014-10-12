@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "400BADD517F35B060027EDE2"
+               BlueprintIdentifier = "407147C919EB1D63003B683E"
                BuildableName = "Kapitel 8.app"
                BlueprintName = "Kapitel 8"
+               ReferencedContainer = "container:Kapitel 8.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "407147E219EB1D63003B683E"
+               BuildableName = "Kapitel 8Tests.xctest"
+               BlueprintName = "Kapitel 8Tests"
                ReferencedContainer = "container:Kapitel 8.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "400BADF617F35B060027EDE2"
+               BlueprintIdentifier = "407147E219EB1D63003B683E"
                BuildableName = "Kapitel 8Tests.xctest"
                BlueprintName = "Kapitel 8Tests"
                ReferencedContainer = "container:Kapitel 8.xcodeproj">
@@ -42,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400BADD517F35B060027EDE2"
+            BlueprintIdentifier = "407147C919EB1D63003B683E"
             BuildableName = "Kapitel 8.app"
             BlueprintName = "Kapitel 8"
             ReferencedContainer = "container:Kapitel 8.xcodeproj">
@@ -61,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400BADD517F35B060027EDE2"
+            BlueprintIdentifier = "407147C919EB1D63003B683E"
             BuildableName = "Kapitel 8.app"
             BlueprintName = "Kapitel 8"
             ReferencedContainer = "container:Kapitel 8.xcodeproj">
@@ -79,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400BADD517F35B060027EDE2"
+            BlueprintIdentifier = "407147C919EB1D63003B683E"
             BuildableName = "Kapitel 8.app"
             BlueprintName = "Kapitel 8"
             ReferencedContainer = "container:Kapitel 8.xcodeproj">

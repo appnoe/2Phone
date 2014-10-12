@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6D84A362-EF45-4D88-892F-C8DFBF0235F4</string>
+	<string>A0EE47F2-544D-43FB-A137-207988F18534</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Kapitel 8</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>ssh://github.com/hinkeldei/2Phone</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Code/Kapitel 8/Kapitel 8.xcodeproj</string>
+	<string>Kapitel 8/Kapitel 8.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EDEAE7267CF1CA89E83FD35004687AAB5DE85BE9</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/hinkeldei/2Phone</string>

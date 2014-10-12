@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  Kapitel 8
 //
-//  Created by Klaus Rodewig on 25.09.13.
-//  Copyright (c) 2013 KMR. All rights reserved.
+//  Created by Klaus Rodewig on 12.10.14.
+//  Copyright (c) 2014 Appnoe. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @end
+
