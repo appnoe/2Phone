@@ -16,6 +16,8 @@
 		4017A99219E3205F00B8C5C0 /* Deep_BlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017A99119E3205F00B8C5C0 /* Deep_BlueTests.m */; };
 		4017A99F19E3258800B8C5C0 /* DBKontaktViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017A99E19E3258800B8C5C0 /* DBKontaktViewController.m */; };
 		4017A9A119E32C2100B8C5C0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4017A9A019E32C2100B8C5C0 /* MessageUI.framework */; };
+		40506AD419E9D04500BD6243 /* DBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40506AD319E9D04500BD6243 /* DBWebViewController.m */; };
+		40506AD719EB030C00BD6243 /* DBWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40506AD619EB030C00BD6243 /* DBWeatherViewController.m */; };
 		40919E6D19E66953003BB270 /* DBDiveCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40919E6C19E66953003BB270 /* DBDiveCenterTableViewController.m */; };
 		40919E7019E66ABB003BB270 /* DBDiveCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40919E6F19E66ABB003BB270 /* DBDiveCenter.m */; };
 		40C7089F19E8791900BBD1F3 /* DBDiveCenterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C7089E19E8791900BBD1F3 /* DBDiveCenterDetailViewController.m */; };
@@ -51,6 +53,10 @@
 		4017A99D19E3258800B8C5C0 /* DBKontaktViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBKontaktViewController.h; sourceTree = "<group>"; };
 		4017A99E19E3258800B8C5C0 /* DBKontaktViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBKontaktViewController.m; sourceTree = "<group>"; };
 		4017A9A019E32C2100B8C5C0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		40506AD219E9D04500BD6243 /* DBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWebViewController.h; sourceTree = "<group>"; };
+		40506AD319E9D04500BD6243 /* DBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWebViewController.m; sourceTree = "<group>"; };
+		40506AD519EB030C00BD6243 /* DBWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWeatherViewController.h; sourceTree = "<group>"; };
+		40506AD619EB030C00BD6243 /* DBWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWeatherViewController.m; sourceTree = "<group>"; };
 		40919E6B19E66953003BB270 /* DBDiveCenterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDiveCenterTableViewController.h; sourceTree = "<group>"; };
 		40919E6C19E66953003BB270 /* DBDiveCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDiveCenterTableViewController.m; sourceTree = "<group>"; };
 		40919E6E19E66ABB003BB270 /* DBDiveCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDiveCenter.h; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 		4017A97419E3205F00B8C5C0 /* Deep Blue */ = {
 			isa = PBXGroup;
 			children = (
+				40506AD519EB030C00BD6243 /* DBWeatherViewController.h */,
+				40506AD619EB030C00BD6243 /* DBWeatherViewController.m */,
 				40919E6B19E66953003BB270 /* DBDiveCenterTableViewController.h */,
 				40919E6C19E66953003BB270 /* DBDiveCenterTableViewController.m */,
 				40C7089D19E8791900BBD1F3 /* DBDiveCenterDetailViewController.h */,
@@ -116,6 +124,8 @@
 				4017A97C19E3205F00B8C5C0 /* ViewController.h */,
 				4017A97D19E3205F00B8C5C0 /* ViewController.m */,
 				4017A97F19E3205F00B8C5C0 /* Main.storyboard */,
+				40506AD219E9D04500BD6243 /* DBWebViewController.h */,
+				40506AD319E9D04500BD6243 /* DBWebViewController.m */,
 				40C708A419E91DCF00BBD1F3 /* DBTwitterViewController.h */,
 				40C708A519E91DCF00BBD1F3 /* DBTwitterViewController.m */,
 				40919E6E19E66ABB003BB270 /* DBDiveCenter.h */,
@@ -256,10 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40506AD419E9D04500BD6243 /* DBWebViewController.m in Sources */,
 				40919E7019E66ABB003BB270 /* DBDiveCenter.m in Sources */,
 				4017A97E19E3205F00B8C5C0 /* ViewController.m in Sources */,
 				4017A99F19E3258800B8C5C0 /* DBKontaktViewController.m in Sources */,
 				40C7089F19E8791900BBD1F3 /* DBDiveCenterDetailViewController.m in Sources */,
+				40506AD719EB030C00BD6243 /* DBWeatherViewController.m in Sources */,
 				40C708A619E91DCF00BBD1F3 /* DBTwitterViewController.m in Sources */,
 				4017A97B19E3205F00B8C5C0 /* AppDelegate.m in Sources */,
 				40919E6D19E66953003BB270 /* DBDiveCenterTableViewController.m in Sources */,
