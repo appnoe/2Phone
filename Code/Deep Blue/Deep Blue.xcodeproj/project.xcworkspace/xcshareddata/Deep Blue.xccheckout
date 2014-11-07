@@ -14,7 +14,7 @@
 		<string>ssh://github.com/hinkeldei/2Phone</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Code/Deep Blue_neu/Deep Blue.xcodeproj</string>
+	<string>Code/Deep Blue/Deep Blue.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EDEAE7267CF1CA89E83FD35004687AAB5DE85BE9</key>
